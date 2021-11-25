@@ -39,11 +39,11 @@ class _HomeState extends State<IndexPage> {
     }
   }
 
-  //display of every employee in list
+  //display Card of every employee in list
   Widget getList(individual_employee) {
     return Container(
         padding: EdgeInsets.all(8),
-        margin: EdgeInsets.all(10),
+        margin: EdgeInsets.symmetric(vertical: 10),
         color: Colors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
